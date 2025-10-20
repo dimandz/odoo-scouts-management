@@ -97,13 +97,7 @@ graph TD
 ```
 ---
 
-This uses **Mermaid** (a Markdown diagram language) — GitHub automatically renders it visually.
-
----
-
 ## 🧰 2. Add Your Files
-
-Create a new file named `CONTRIBUTING.md` in your project root and paste this:
 
 ```markdown
 # 🛠️ Contribution Guidelines

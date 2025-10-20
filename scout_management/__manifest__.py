@@ -2,6 +2,7 @@
     'name': 'Scout Management',
     'version': '1.0',
     'summary': 'Manage scouts, leaders, and activities',
+    'license': 'LGPL-3',
     'description': """
         Scouts Management System
         ========================
