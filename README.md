@@ -81,6 +81,69 @@ Bug reports and feature suggestions can be opened via [GitHub Issues](../../issu
 
 ---
 
+## 🔄 Development Workflow
+
+Below is the typical contribution flow for this project:
+
+```mermaid
+graph TD
+    A[Fork the Repository] --> B[Clone to Local Machine]
+    B --> C[Create New Branch: feature/your-feature]
+    C --> D[Make Changes & Commit]
+    D --> E[Push Branch to Your Fork]
+    E --> F[Open Pull Request to dev Branch]
+    F --> G[Code Review & Feedback]
+    G --> H[Approved → Merge into dev]
+    H --> I[Maintainer merges dev → main for release]
+
+```
+---
+
+This uses **Mermaid** (a Markdown diagram language) — GitHub automatically renders it visually.
+
+---
+
+## 🧰 2. Add Your Files
+
+Create a new file named `CONTRIBUTING.md` in your project root and paste this:
+
+```markdown
+# 🛠️ Contribution Guidelines
+
+Thank you for your interest in contributing to the **Odoo Scouts Management System** project!
+
+## 💡 How to Contribute
+
+1. **Fork** this repository  
+2. **Clone** your fork to your local machine:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/odoo-scouts-management.git
+
+```
+
+---
+
+## 🚀 3. Push Your Updated Files to GitHub
+
+In your project root, run these commands:
+
+```bash
+# Make sure you're on the correct branch
+git branch
+
+# If you’re still on main, switch to dev (or create it)
+git checkout -b dev
+
+# Stage your new files
+git add README.md CONTRIBUTING.md
+
+# Commit with a clear message
+git commit -m "Add contribution guidelines and workflow diagram"
+
+# Push to your remote dev branch
+git push -u origin dev
+```
+---
 ## 📬 Contact
 
 **Author:** Mossab ([@dimandz](https://github.com/dimandz))  
