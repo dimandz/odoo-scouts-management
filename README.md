@@ -87,15 +87,13 @@ Below is the typical contribution flow for this project:
 
 ```mermaid
 graph TD
-    A[Fork the Repository] --> B[Clone to Local Machine]
-    B --> C[Create New Branch: feature/your-feature]
-    C --> D[Make Changes & Commit]
-    D --> E[Push Branch to Your Fork]
-    E --> F[Open Pull Request to dev Branch]
-    F --> G[Code Review & Feedback]
-    G --> H[Approved → Merge into dev]
-    H --> I[Maintainer merges dev → main for release]
-
+    A[Submit Pull Request] --> B[Code Review]
+    B -->|Approved| C[Merge into dev branch]
+    B -->|Not Approved| D[Request changes]
+    D --> E[Developer fixes issues]
+    E --> B
+    C --> F[QA Testing]
+    F --> G[Maintainer merges dev -> main for release]
 ```
 ---
 
